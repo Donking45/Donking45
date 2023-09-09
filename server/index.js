@@ -8,7 +8,7 @@ app.use(express.json());
 
 // TODO: hardcode a merkle root here representing the whole nice list
 // paste the hex string in here, without the 0x prefix
-const MERKLE_ROOT = '';
+const MERKLE_ROOT = 'Merkle Root: ddd59a2ffccddd60ff47993312821cd57cf30f7f14fb82937ebe2c4dc78375aa';
 
 app.post('/gift', (req, res) => {
   // grab the parameters from the front-end here
@@ -21,6 +21,18 @@ app.post('/gift', (req, res) => {
   }
   else {
     res.send("You are not on the list :(");
+  }
+
+  if (isInTheList) {
+    res.json({
+      success: true,
+      message: "We verified you're on the list, you got a toy robot!",
+    });
+  } else {
+    res.json({
+      success: false,
+      message: "Sorry but we verified you are not on the list",
+    });
   }
 });
 
