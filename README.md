@@ -1,26 +1,83 @@
-# Gift List
+# My GitHub Repositories
 
-To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
+Welcome to my GitHub profile! Below is a list of repositories I have worked on:
 
-There are three folders in this repository:
+## OkmToken-REACT
 
-## Client
+- Description: A React-based project for managing tokens.
+- Last Update: Last week.
 
-You can run the client from the top-level directory with `node client/index`. This file is a script which will send an HTTP request to the server.
+## BlockSol_01
 
-Think of the client as the _prover_ here. It needs to prove to the server that some `name` is in the `MERKLE_ROOT` on the server. 
+- Description: A JavaScript project related to blockchain solutions.
+- Last Update: April 14.
 
-## Server
+## ERC20Token
 
-You can run the server from the top-level directory with `node server/index`. This file is an express server which will be hosted on port 1225 and respond to the client's request.
+- Description: Implementation of the ERC20 token standard in JavaScript.
+- Last Update: April 1.
 
-Think of the server as the _verifier_ here. It needs to verify that the `name` passed by the client is in the `MERKLE_ROOT`. If it is, then we can send the gift! 
+## My_Todo_List-app
 
-## Utils
+- Description: A simple to-do list application.
+- Last Update: March 11.
 
-There are a few files in utils:
+## Design_Pattern
 
-- The `niceList.json` which contains all the names of the people who deserve a gift this year (this is randomly generated, feel free to add yourself and others to this list!)
-- The `example.js` script shows how we can generate a root, generate a proof and verify that some value is in the root using the proof. Try it out from the top-level folder with `node/example.js`
-- The `MerkleTree.js` should look familiar from the Merkle Tree module! This one has been modified so you should not have to deal with any crypto type conversion. You can import this in your client/server
-- The `verifyProof.js` should also look familiar. This was the last stage in the module. You can use this function to prove a name is in the merkle root, as show in the example.
+- Description: Repository focused on design patterns in JavaScript.
+- Last Update: February 29.
+
+## Credit-Card-Validator
+
+- Description: JavaScript project for validating credit card numbers.
+- Last Update: February 29.
+
+## Descriptive-Statistics
+
+- Description: Implementation of descriptive statistics algorithms.
+- Last Update: February 22.
+
+## Movie-Rental-API
+
+- Description: API for managing movie rentals.
+- Last Update: February 21.
+
+## ecommerce-app
+
+- Description: E-commerce application developed in JavaScript.
+- Last Update: February 21.
+
+## Kingdom_Animalia_Class
+
+- Description: JavaScript project related to the classification of animals.
+- Last Update: February 21.
+
+## Class-Diagram3
+
+- Description: Class diagrams implementation.
+- Last Update: February 2.
+
+## Class-Diagram2
+
+- Description: Another repository for class diagrams.
+- Last Update: February 1.
+
+## Class-Diagram
+
+- Description: Repository for class diagrams.
+- Last Update: January 31.
+
+## git-commands-class
+
+- Description: A guide to Git commands.
+- Last Update: January 16.
+
+## blockExplorer
+
+- Description: A JavaScript project related to blockchain explorers.
+- Last Update: November 5, 2023.
+
+## MerkleTreeGiftList
+
+- Description: Implementation of a secure method for server-side gift list verification using Merkle Trees and cryptographic techniques.
+- Last Update: September 10, 2023.
